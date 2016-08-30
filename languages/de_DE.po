@@ -1,0 +1,1573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Anchor-Theme German\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-25 10:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Johann Kratzik <johann@kratzik.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_e;esc_html_x;esc_html__;esc_attr__;esc_attr_x;esc_html_e;"
+"translate_nooped_plural\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comment.php:10
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: comment.php:11 content/page.php:14 misc/entry-byline.php:11
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content/attachment-image.php:38
+msgid "Gallery"
+msgstr "Galerie"
+
+#: content/content.php:16 content/content.php:25
+#, php-format
+msgid "Posted in %s"
+msgstr "Kategorien: %s"
+
+#: content/content.php:17 content/content.php:26
+#, php-format
+msgid "Tagged with %s"
+msgstr "Schlagwörter: %s"
+
+#: content/error.php:6
+msgid "This page doesn't exist"
+msgstr "Diese Seite existiert nicht"
+
+#: content/error.php:10
+#, php-format
+msgid ""
+"Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and "
+"see if you can find what you are looking for. Or, you can try finding it by "
+"using the search form below."
+msgstr ""
+"Sie können zur <a href=\"%s\">Startseite</a> zurückkehren um zu finden, was "
+"Sie gesucht haben. Oder Sie können es mit dem Suchformular versuchen."
+
+#: content/error.php:17
+msgid "Sorry, no entries have been found."
+msgstr "Leider wurden keine Inhalte gefunden."
+
+#: footer.php:12
+#, php-format
+msgid "Copyright &copy; %1$s %2$s"
+msgstr "Copyright &copy; %1$s %2$s"
+
+#: header.php:12
+msgid "Skip to content"
+msgstr " Zum Inhalt springen"
+
+#: hybrid-core/admin/meta-box-post-layout.php:35
+#: hybrid-core/inc/functions-customize.php:72
+msgid "Layout"
+msgstr "Layout"
+
+#: hybrid-core/admin/meta-box-post-style.php:35
+msgid "Style"
+msgstr "CSS"
+
+#: hybrid-core/admin/meta-box-post-template.php:41
+msgid "Template"
+msgstr "Template"
+
+#: hybrid-core/ext/breadcrumb-trail.php:244
+msgid "Browse:"
+msgstr "Navigieren:"
+
+#: hybrid-core/ext/breadcrumb-trail.php:245
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: hybrid-core/ext/breadcrumb-trail.php:246
+msgid "Home"
+msgstr "Startseite"
+
+#: hybrid-core/ext/breadcrumb-trail.php:247
+#: hybrid-core/inc/template-general.php:422
+msgid "404 Not Found"
+msgstr "Seite nicht gefunden"
+
+#: hybrid-core/ext/breadcrumb-trail.php:248
+#: hybrid-core/inc/template-general.php:218
+msgid "Archives"
+msgstr "Archive"
+
+#: hybrid-core/ext/breadcrumb-trail.php:250
+#: hybrid-core/inc/template-general.php:400
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Suchergebnisse für &#8220;%s&#8221;"
+
+#: hybrid-core/ext/breadcrumb-trail.php:252
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: hybrid-core/ext/breadcrumb-trail.php:254
+#: hybrid-core/inc/template-general.php:354
+#, php-format
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#: hybrid-core/ext/breadcrumb-trail.php:256
+#, php-format
+msgid "Week %s"
+msgstr "Woche %s"
+
+#: hybrid-core/ext/breadcrumb-trail.php:708
+#: hybrid-core/inc/template-general.php:376
+msgid "g:i a"
+msgstr "G:i"
+
+#: hybrid-core/ext/breadcrumb-trail.php:725
+#: hybrid-core/inc/template-general.php:354
+msgid "i"
+msgstr "i"
+
+#: hybrid-core/ext/breadcrumb-trail.php:742
+#: hybrid-core/inc/template-general.php:330
+msgid "g a"
+msgstr "G"
+
+#: hybrid-core/ext/breadcrumb-trail.php:758
+#: hybrid-core/ext/breadcrumb-trail.php:787
+#: hybrid-core/ext/breadcrumb-trail.php:814
+#: hybrid-core/ext/breadcrumb-trail.php:841
+#: hybrid-core/ext/breadcrumb-trail.php:1176
+#: hybrid-core/inc/template-general.php:262
+#: hybrid-core/inc/template-general.php:286
+msgid "Y"
+msgstr "Y"
+
+#: hybrid-core/ext/breadcrumb-trail.php:759
+#: hybrid-core/ext/breadcrumb-trail.php:815
+#: hybrid-core/ext/breadcrumb-trail.php:1180
+msgid "F"
+msgstr "F"
+
+#: hybrid-core/ext/breadcrumb-trail.php:760
+#: hybrid-core/ext/breadcrumb-trail.php:1184
+msgid "j"
+msgstr "j"
+
+#: hybrid-core/ext/breadcrumb-trail.php:788
+#: hybrid-core/inc/template-general.php:286
+msgid "W"
+msgstr "W"
+
+#: hybrid-core/inc/class-media-meta.php:245
+#: hybrid-core/inc/template-media.php:172
+#, php-format
+msgid "%1$s &#215; %2$s"
+msgstr "%1$s &#215; %2$s"
+
+#: hybrid-core/inc/functions-attr.php:202
+#, php-format
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr "%s Sidebar"
+
+#: hybrid-core/inc/functions-attr.php:235
+#, php-format
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr "%s Navigation"
+
+#: hybrid-core/inc/functions-attr.php:476
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr "j. F Y, G:i"
+
+#: hybrid-core/inc/functions-attr.php:601
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr "j. F Y, G:i"
+
+#: hybrid-core/inc/functions-customize.php:95
+msgid "Global Layout"
+msgstr "Allgemeines Layout"
+
+#: hybrid-core/inc/functions-head.php:140
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr "%1$s Seite %2$s"
+
+#: hybrid-core/inc/functions-layouts.php:51
+msgid "Default"
+msgstr "Voreinstellung"
+
+#: hybrid-core/inc/functions-utility.php:94
+msgid "(Untitled)"
+msgstr "(Ohne Titel)"
+
+#: hybrid-core/inc/template-general.php:55
+msgid "http://wordpress.org"
+msgstr "http://de.wordpress.org"
+
+#: hybrid-core/inc/template-general.php:55
+msgid "WordPress"
+msgstr "WordPress"
+
+#: hybrid-core/inc/template-general.php:286
+#, php-format
+msgid "Week %1$s of %2$s"
+msgstr "Woche %1$s von %2$s"
+
+#: hybrid-core/inc/template-general.php:308
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: hybrid-core/inc/template-post.php:219
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ", "
+
+#: inc/theme.php:5
+msgid "Main Menu"
+msgstr "Haupt-Menü"
+
+#: inc/theme.php:11
+msgid "1 Column"
+msgstr "1 Spalte"
+
+#: inc/theme.php:12
+msgid "2 Columns: Content / Sidebar"
+msgstr "2 Spalten: Inhalt / Sidebar"
+
+#: inc/theme.php:13
+msgid "2 Columns: Sidebar / Content"
+msgstr "2 Spalten: Sidebar / Inhalt"
+
+#: inc/theme.php:22
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/theme.php:23
+msgid "The primary sidebar that is shown left or right to the content area."
+msgstr ""
+"Die primäre Sidebar, die links oder rechts vom Inhaltsbereich angezeigt wird"
+
+#: inc/theme.php:33
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/theme.php:57
+#, php-format
+msgid "Read more %s"
+msgstr "Weiterlesen %s"
+
+#: menu/breadcrumbs.php:9
+msgid "You are here:"
+msgstr "Sie sind hier:"
+
+#: misc/archive-header.php:5
+msgid "Category: "
+msgstr "Kategorie: "
+
+#: misc/archive-header.php:8
+msgid "Tag: "
+msgstr "Schlagwort: "
+
+#: misc/archive-header.php:11
+msgid "Author: "
+msgstr "Autor: "
+
+#: misc/comments-error.php:6
+#, php-format
+msgid "Comments are closed, but %strackbacks%s and pingbacks are open."
+msgstr ""
+"Kommentare sind geschlossen, aber %sTrackbacks%s und Pingbacks sind offen."
+
+#: misc/comments-error.php:13
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: misc/comments-nav.php:5
+msgid "Comments Navigation"
+msgstr "Kommentar-Navigation"
+
+#: misc/comments-nav.php:7
+msgid "&larr; Previous"
+msgstr "&larr; Zurück"
+
+#: misc/comments-nav.php:11
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Seite %1$s von %2$s"
+
+#: misc/comments-nav.php:14
+msgid "Next &rarr;"
+msgstr "Weiter &rarr;"
+
+#: misc/entry-byline.php:1
+msgid "Leave a comment"
+msgstr "Kommentar abgeben"
+
+#: misc/entry-byline.php:1
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: misc/entry-byline.php:5
+msgid "by"
+msgstr "von"
+
+#: misc/entry-byline.php:8
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: misc/entry-byline.php:8
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: misc/loop-nav.php:4
+msgid "Previous Post: %link"
+msgstr "Voriger Beitrag: %link"
+
+#: misc/loop-nav.php:5
+msgid "Next Post: %link"
+msgstr "Nächster Beitrag: %link"
+
+#: misc/loop-nav.php:12
+msgid "Previous"
+msgstr "Zurück"
+
+#: misc/loop-nav.php:13
+msgid "Next"
+msgstr "Weiter"
+
+#: searchform.php:4
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: searchform.php:5
+msgid "Search &hellip;"
+msgstr "Suche &hellip;"
+
+#: searchform.php:8
+msgid "Search"
+msgstr "Suche"
+
+#: sidebar/primary.php:14
+msgid "Example Widget"
+msgstr "Beispiel-Widget"
+
+#: sidebar/primary.php:16
+#, php-format
+msgid ""
+"This is an example widget to show how the Primary sidebar looks by default. "
+"You can add custom widgets from the %swidgets page%s in the dashboard."
+msgstr ""
+"Das ist ein Beispiel-Widget um zu zeigen, wie die Primäre Sidebar aussieht."
+"Sie können eigene Widgets auf der %sWidgets-Seite%s im Dashboard einfügen."
+
+#~ msgctxt "label"
+#~ msgid "Search for:"
+#~ msgstr "Suche nach:"
+
+#~ msgid "Preview"
+#~ msgstr "Vorschau"
+
+#~ msgid "Home widget area"
+#~ msgstr "Widgetbereich auf der Startseite"
+
+#~ msgid "Shown above the main content area on the homepage."
+#~ msgstr "Wird oberhalb des Inhaltsbereichs auf der Startseite angezeigt."
+
+#~ msgid "Start slideshow"
+#~ msgstr "Slideshow starten"
+
+#~ msgid "Pause slideshow"
+#~ msgstr "Slideshow anhalten"
+
+#~ msgid "Toggle size"
+#~ msgstr "Vergrößern / Verkleinern"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Files &amp; Images"
+#~ msgstr "Dateien und Bilder"
+
+#~ msgid "Comment Settings"
+#~ msgstr "Einstellungen &rsaquo; Kommentare"
+
+#~ msgid "Image Settings"
+#~ msgstr "Einstellungen &rsaquo; Bilder"
+
+#~ msgid "URL Settings"
+#~ msgstr "Einstellungen &rsaquo; URLs"
+
+#~ msgid "Upload New File(s)"
+#~ msgstr "Neue Datei(en) hochladen"
+
+#~ msgid "Blog Posts"
+#~ msgstr "Blog-Beiträge"
+
+#~ msgid "Manage Posts"
+#~ msgstr "Beiträge verwalten"
+
+#~ msgid "Create Post"
+#~ msgstr "Beitrag erstellen"
+
+#~ msgid "Manage Files"
+#~ msgstr "Dateien verwalten"
+
+#~ msgid "Upload"
+#~ msgstr "Hochladen"
+
+#~ msgid "Static Pages"
+#~ msgstr "Statische Seiten"
+
+#~ msgid "Manage Pages"
+#~ msgstr "Seiten verwalten"
+
+#~ msgid "Create Page"
+#~ msgstr "Seite erstellen"
+
+#~ msgid "Manage Users"
+#~ msgstr "Benutzer verwalten"
+
+#~ msgid "Add New User"
+#~ msgstr "Benutzer hinzufügen"
+
+#~ msgid "Comments"
+#~ msgstr "Kommentare"
+
+#~ msgid "Images"
+#~ msgstr "Bilder"
+
+#~ msgid "URLs"
+#~ msgstr "URLs"
+
+#~ msgid "Galleries"
+#~ msgstr "Galerien"
+
+#~ msgid "Add New Gallery"
+#~ msgstr "Neue Galerie erstellen"
+
+#~ msgid "Create Gallery"
+#~ msgstr "Galerie erstellen"
+
+#~ msgid "Edit Gallery"
+#~ msgstr "Galerie bearbeiten"
+
+#~ msgid "New Gallery"
+#~ msgstr "Neue Galerie"
+
+#~ msgid "View Gallery"
+#~ msgstr "Galerie ansehen"
+
+#~ msgid "Search Galleries"
+#~ msgstr "Galerien durchsuchen"
+
+#~ msgid "No galleries found"
+#~ msgstr "Keine Galerien gefunden"
+
+#~ msgid "No galleries found in trash"
+#~ msgstr "Keine Galerien im Papierkorb gefunden."
+
+#~ msgid "Gallery updated."
+#~ msgstr "Galerie aktualisiert."
+
+#~ msgid "Random"
+#~ msgstr "Zufällig"
+
+#~ msgid "Layer placement"
+#~ msgstr "Ebenenposition"
+
+#~ msgid "Top left"
+#~ msgstr "Links oben"
+
+#~ msgid "Top right"
+#~ msgstr "Rechts oben"
+
+#~ msgid "Bottom left"
+#~ msgstr "Links unten"
+
+#~ msgid "Bottom right"
+#~ msgstr "Rechts unten"
+
+#~ msgid "Hide title and caption"
+#~ msgstr "Titel und Bildunterschrift verstecken"
+
+#~ msgid "Show at the end of image animation"
+#~ msgstr "Am Ende der Bildanimation anzeigen"
+
+#~ msgid "Image animation"
+#~ msgstr "Bildanimation"
+
+#~ msgid "No animation"
+#~ msgstr "Keine Animation"
+
+#~ msgid "Animation &quot;In&quot;"
+#~ msgstr "Animation &quot;hinein&quot;"
+
+#~ msgid "Animation &quot;Out&quot;"
+#~ msgstr "Animation &quot;hinaus&quot;"
+
+#~ msgid "Title animation"
+#~ msgstr "Titelanimation"
+
+#~ msgid "Caption animation"
+#~ msgstr "Bildunterschrift-Animation"
+
+#~ msgid "Preview Animation"
+#~ msgstr "Vorschau Animation"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Upload or Select Images"
+#~ msgstr "Bilder hochladen oder auswählen"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Number of columns"
+#~ msgstr "Spaltenanzahl"
+
+#~ msgid "For large screen size"
+#~ msgstr "Für große Displays"
+
+#~ msgid "(larger 1024 Pixels)"
+#~ msgstr "(breiter als 1024 Pixel)"
+
+#~ msgid "For medium screen size"
+#~ msgstr "Für mittlere Displays"
+
+#~ msgid "(smaller 1024 and larger 640 pixels)"
+#~ msgstr "(schmäler als 1024 und breiter als 640 Pixel)"
+
+#~ msgid "For small screen size"
+#~ msgstr "Für kleine Displays"
+
+#~ msgid "(smaller 640 pixels)"
+#~ msgstr "(schmäler als 640 Pixel)"
+
+#~ msgid "Columns"
+#~ msgstr "Spalten"
+
+#~ msgid "Tiles"
+#~ msgstr "Kacheln"
+
+#~ msgid "Carousel"
+#~ msgstr "Karussell"
+
+#~ msgid "Title / caption placement"
+#~ msgstr "Position von Titel / Bildunterschrift"
+
+#~ msgid "Title above - caption below"
+#~ msgstr "Titel oben - Bildunterschrift unten"
+
+#~ msgid "Title and caption below"
+#~ msgstr "Titel und Bildunterschrift unten"
+
+#~ msgid "Title and caption layered above image"
+#~ msgstr "Titel und Bildunterschrift als Ebene über dem Bild"
+
+#~ msgid "Carousel settings"
+#~ msgstr "Karussell-Einstellungen"
+
+#~ msgid "Mode"
+#~ msgstr "Modus"
+
+#~ msgid "Stop carousel at last item (normal mode)"
+#~ msgstr "Karussell beim letzten Element anhalten (normaler Modus)"
+
+#~ msgid "Scroll back to first item (circular mode)"
+#~ msgstr "Am Ende zum ersten Element zurück scrollen (zirkulärer Modus)"
+
+#~ msgid "Scroll forward to first item (carousel mode)"
+#~ msgstr "Am Ende zum ersten Element weiter scrollen (Karussell-Modus)"
+
+#~ msgid "Hide previous/next arrows"
+#~ msgstr "Weiter / Zurück Pfeile verstecken"
+
+#~ msgid "Hide pagination dots"
+#~ msgstr "Navigationspunkte verstecken"
+
+#~ msgid ""
+#~ "Pagination is only displayed in &quot;normal&quot; or &quot;"
+#~ "circular&quot; mode"
+#~ msgstr ""
+#~ "Die Navigation ist nur im &quot;normalen&quot; oder &quot;"
+#~ "zirkulären&quot; Modus sichtbar"
+
+#~ msgid "Fade items"
+#~ msgstr "Elemente einblenden statt scrollen"
+
+#~ msgid "Fit height"
+#~ msgstr "Flexible Höhe"
+
+#~ msgid "Adjust carousel height dynamically based on items height"
+#~ msgstr "Die Höhe des Karussells dynamisch an die Höhe der Elemente anpassen"
+
+#~ msgid "Autoplay interval in milliseconds"
+#~ msgstr "Autoplay-Intervall in Millisekunden"
+
+#~ msgid "Delay for first animation in milliseconds"
+#~ msgstr "Verzögerung für die erste Animation in Millisekunden"
+
+#~ msgid "Animation delay in milliseconds"
+#~ msgstr "Verzögerung für die weiteren Animationen in Millisekunden"
+
+#~ msgid "Lightbox settings"
+#~ msgstr "Lightbox-Einstellungen"
+
+#~ msgid "Open images in lightbox"
+#~ msgstr "Bilder in Lightbox öffnen"
+
+#~ msgid "Disable loop"
+#~ msgstr "Schleife deaktivieren"
+
+#~ msgid "Stop slideshow at the last/first image"
+#~ msgstr "Slideshow beim letzten/ersten Bild anhalten"
+
+#~ msgid "Show thumbnails"
+#~ msgstr "Thumbnails anzeigen"
+
+#~ msgid "+ Add Images"
+#~ msgstr "+ Bilder einfügen"
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
+
+#~ msgid "&larr; Previous Post: %link"
+#~ msgstr "&larr; Voriger Beitrag: %link"
+
+#~ msgid "Next Post: %link &rarr;"
+#~ msgstr "Nächster Beitrag: %link &rarr;"
+
+#~ msgid "Enable autoplay"
+#~ msgstr "Autoplay aktivieren"
+
+#~ msgid "Copyright &#169; %1$s %2$s. Powered by %3$s."
+#~ msgstr "Copyright &#169; %1$s %2$s. Powered by %3$s."
+
+#~ msgid "Primary Menu"
+#~ msgstr "Primäres Menü"
+
+#~ msgid "Secondary Menu"
+#~ msgstr "Sekundäres Menü"
+
+#~ msgid "Primary Sidebar"
+#~ msgstr "Primäre Sidebar"
+
+#~ msgid "Primary"
+#~ msgstr "Primär"
+
+#~ msgid " Preview "
+#~ msgstr " Vorschau "
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "%1$s comments"
+#~ msgstr "%1$s Kommentare"
+
+#~ msgid "Read More"
+#~ msgstr "Mehr Lesen"
+
+#~ msgid "Homepage"
+#~ msgstr "Startseite"
+
+#~ msgid "Footer Right"
+#~ msgstr "Footer Rechts"
+
+#~ msgid "General Settings"
+#~ msgstr "Allgemeine Einstellungen"
+
+#~ msgid "Intro text"
+#~ msgstr "Einleitungstext"
+
+#~ msgid "Slider shortcode"
+#~ msgstr "Slider-Shortcode"
+
+#~ msgid "Contact form shortcode"
+#~ msgstr "Kontaktformular-Shortcode"
+
+#~ msgid "Tables"
+#~ msgstr "Tabellen"
+
+#~ msgid "Detail"
+#~ msgstr "Detail"
+
+#~ msgid "Upload images"
+#~ msgstr "Bilder hochladen"
+
+#~ msgid "Downloads"
+#~ msgstr "Downloads"
+
+#~ msgid "Homepage Settings"
+#~ msgstr "Einstellungen für die Startseite"
+
+#~ msgid "Show in small boxes"
+#~ msgstr "In den kleinen Boxen anzeigen"
+
+#~ msgid "Show in large boxes"
+#~ msgstr "In den großen Boxen anzeigen"
+
+#~ msgid ""
+#~ "<p>&copy; %s - All rights reserved %s - Concept and Implementation: <a "
+#~ "href=\"http://www.mohanty.de/\" target=\"_blank\">Werbeagentur</a> "
+#~ "mohanty</p>"
+#~ msgstr ""
+#~ "<p>&copy; %s - Alle Rechte vorbehalten %s - Konzept und Umsetzung: <a "
+#~ "href=\"http://www.mohanty.de/\" target=\"_blank\">Werbeagentur</a> "
+#~ "mohanty</p>"
+
+#~ msgid "View Products"
+#~ msgstr "Zu den Produkten"
+
+#~ msgid "More..."
+#~ msgstr "Mehr..."
+
+#~ msgid "Latest News"
+#~ msgstr "Aktuelles"
+
+#~ msgid "Header Top"
+#~ msgstr "Header oben"
+
+#~ msgid "Additional Settings"
+#~ msgstr "Zusätzliche Einstellungen"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Info text"
+#~ msgstr "Info-Text"
+
+#~ msgid "Logo gallery"
+#~ msgstr "Logo-Galerie"
+
+#~ msgid "Show contact form"
+#~ msgstr "Kontaktformular anzeigen"
+
+#~ msgid "Footer"
+#~ msgstr "Footer"
+
+#~ msgid "Footer title"
+#~ msgstr "Footer-Titel"
+
+#~ msgid "Footer text"
+#~ msgstr "Footer-Text"
+
+#~ msgid "Show in the large boxes"
+#~ msgstr "In den großen Boxen anzeigen"
+
+#~ msgid "Text above the small boxes"
+#~ msgstr "Text oberhalb der kleinen Boxen"
+
+#~ msgid "Show in the small boxes"
+#~ msgstr "In den kleinen Boxen anzeigen"
+
+#~ msgid "Show in Overview Boxes"
+#~ msgstr "In den Übersichts-Boxen anzeigen"
+
+#~ msgid "Select References to Show on the Page"
+#~ msgstr "Referenzen zum Anzeigen suf der Seite auswählen"
+
+#~ msgid "Select FAQs to Show on the Page"
+#~ msgstr "FAQs zum Anzeigen suf der Seite auswählen"
+
+#~ msgid "FAQ title"
+#~ msgstr "FAQ-Titel"
+
+#~ msgid "Entry"
+#~ msgstr "Eintrag"
+
+#~ msgid "Product Details Table"
+#~ msgstr "Produkt-Details Tabelle"
+
+#~ msgid "Box title"
+#~ msgstr "Titel für die Box"
+
+#~ msgid "List of Other Products"
+#~ msgstr "Auflistung weiterer Produkte"
+
+#~ msgid "Text for Boxes on the Homepage and Product Overview Pages"
+#~ msgstr ""
+#~ "Text für die Boxen auf der Startseite und auf den Produkt-Übersichtsseiten"
+
+#~ msgid "Box text"
+#~ msgstr "Text für die Box"
+
+#~ msgid "Mouseover text"
+#~ msgstr "Mouseover-Text"
+
+#~ msgid "Upload Logos"
+#~ msgstr "Logos hochladen"
+
+#~ msgid "References"
+#~ msgstr "Referenzen"
+
+#~ msgid "Reference"
+#~ msgstr "Referenz"
+
+#~ msgid "FAQs"
+#~ msgstr "FAQs"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "Displays featured page with thumbnails"
+#~ msgstr "Displays featured page with thumbnails"
+
+#~ msgid "Cryo - Featured Page"
+#~ msgstr "Cryo - Featured Seite"
+
+#~ msgid "Page"
+#~ msgstr "Page"
+
+#~ msgid "Excerpt"
+#~ msgstr "Auszug"
+
+#~ msgid "Header top"
+#~ msgstr "Header oben"
+
+#~ msgid "Primary Navigation Menu"
+#~ msgstr "Primary Navigation Menu"
+
+#~ msgid ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=\"http://shop.trihorse.de/"
+#~ "impressum/\">Imprint</a> Concept and implementation: <a href=\"http://www."
+#~ "mohanty.de\" title=\"Werbeagentur\">Werbeagentur</a> Berlin mohanty.de"
+#~ msgstr ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=„http://shop.trihorse.de/"
+#~ "impressum/„>Impressum</a> Konzept und Umsetzung: <a href=„http://www."
+#~ "mohanty.de“ title=„Werbeagentur“>Werbeagentur</a> Berlin mohanty.de"
+
+#~ msgid "Header text"
+#~ msgstr "Header-Text"
+
+#~ msgid "Buy link"
+#~ msgstr "Kaufen-Link"
+
+#~ msgid "Detail elements"
+#~ msgstr "Detail-Elemente"
+
+#~ msgid "Show image on the right side"
+#~ msgstr "Bild auf der rechten Seite anzeigen"
+
+#~ msgid "Features 1"
+#~ msgstr "Eigenschaften 1"
+
+#~ msgid "Title 1"
+#~ msgstr "Titel 1"
+
+#~ msgid "Text 1"
+#~ msgstr "Text 1"
+
+#~ msgid "Title 2"
+#~ msgstr "Titel 2"
+
+#~ msgid "Text 2"
+#~ msgstr "Text 2"
+
+#~ msgid "Title 3"
+#~ msgstr "Titel 3"
+
+#~ msgid "Text 3"
+#~ msgstr "Text 3"
+
+#~ msgid "Title 4"
+#~ msgstr "Titel 4"
+
+#~ msgid "Text 4"
+#~ msgstr "Text 4"
+
+#~ msgid "Title 5"
+#~ msgstr "Titel 5"
+
+#~ msgid "Text 5"
+#~ msgstr "Text 5"
+
+#~ msgid "Title 6"
+#~ msgstr "Titel 6"
+
+#~ msgid "Text 6"
+#~ msgstr "Text 6"
+
+#~ msgid "Title 7"
+#~ msgstr "Titel 7"
+
+#~ msgid "Text 7"
+#~ msgstr "Text 7"
+
+#~ msgid "Title 8"
+#~ msgstr "Titel 8"
+
+#~ msgid "Text 8"
+#~ msgstr "Text 8"
+
+#~ msgid "Title 9"
+#~ msgstr "Titel 9"
+
+#~ msgid "Text 9"
+#~ msgstr "Text 9"
+
+#~ msgid "Title 10"
+#~ msgstr "Titel 10"
+
+#~ msgid "Text 10"
+#~ msgstr "Text 10"
+
+#~ msgid "Features 2"
+#~ msgstr "Eigenschaften 2"
+
+#~ msgid "More link"
+#~ msgstr "Mehr-Link"
+
+#~ msgid "Buy now with"
+#~ msgstr "Jetzt kaufen bei"
+
+#~ msgid "Learn more"
+#~ msgstr "Mehr erfahren"
+
+#~ msgid "Height"
+#~ msgstr "Höhe"
+
+#~ msgid "Width"
+#~ msgstr "Breite"
+
+#~ msgid "Depth"
+#~ msgstr "Tiefe"
+
+#~ msgid "Weight"
+#~ msgstr "Gewicht"
+
+#~ msgid "Material"
+#~ msgstr "Material"
+
+#~ msgid "high"
+#~ msgstr "hoch"
+
+#~ msgid "wide"
+#~ msgstr "breit"
+
+#~ msgid "deep"
+#~ msgstr "tief"
+
+#~ msgid ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=\"http://shop.trihorse.de/"
+#~ "impressum/\">Imprint</a> Concept &amp; implementation: <a href=\"http://"
+#~ "www.mohanty.de\" title=\"Werbeagentur\">Werbeagentur</a> Berlin mohanty.de"
+#~ msgstr ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=„http://shop.trihorse.de/"
+#~ "impressum/„>Impressum</a> Konzept und Umsetzung: <a href=„http://www."
+#~ "mohanty.de“ title=„Werbeagentur“>Werbeagentur</a> Berlin mohanty.de"
+
+#~ msgid ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=\"http://shop.trihorse.de/"
+#~ "impressum/\">Impressum</a> Concept &amp; implementation: <a href=\"http://"
+#~ "www.mohanty.de\" title=\"Werbeagentur\">Werbeagentur</a> Berlin mohanty.de"
+#~ msgstr ""
+#~ "&copy; Copyright %s TRIHORSE s.r.o <a href=„http://shop.trihorse.de/"
+#~ "impressum/„>Impressum</a> Concept &amp; implementation: <a href=„http://"
+#~ "www.mohanty.de“ title=„Werbeagentur“>Werbeagentur</a> Berlin mohanty.de"
+
+#~ msgid "Read more"
+#~ msgstr "Mehr Lesen"
+
+#~ msgid "Downloads sidebar"
+#~ msgstr "Downloads-Sidebar"
+
+#~ msgid "Only displayed on pages with the &quot;Downloads&quot; page template"
+#~ msgstr ""
+#~ "Wird nur auf Seiten mit dem &quot;Downloads&quot; Seiten-Template "
+#~ "angezeigt"
+
+#~ msgid "References sidebar"
+#~ msgstr "Referenzen-Sidebar"
+
+#~ msgid ""
+#~ "Only displayed on pages with the &quot;Referenzen&quot; page template"
+#~ msgstr ""
+#~ "Wird nur auf Seiten mit dem &quot;Referenzen&quot; Seiten-Template "
+#~ "angezeigt"
+
+#~ msgid "Services sidebar"
+#~ msgstr "Services-Sidebar"
+
+#~ msgid "Only displayed on pages with the &quot;Service&quot; page template"
+#~ msgstr ""
+#~ "Wird nur auf Seiten mit dem &quot;Service&quot; Seiten-Template angezeigt"
+
+#~ msgid "What are you searching for?"
+#~ msgstr "Was suchen Sie?"
+
+#~ msgid "Back to references overview"
+#~ msgstr "Zurück zur Referenzübersicht"
+
+#~ msgid ""
+#~ "&copy; iris-GmbH. All rights reserved / Concept &amp; implementation: <a "
+#~ "href=\"http://www.mohanty.de\" title=\"Werbeagentur\">Werbeagentur</a> "
+#~ "mohanty"
+#~ msgstr ""
+#~ "&copy; iris-GmbH. Alle Rechte vorbehalten / Konzept &amp; Umsetzung: <a "
+#~ "href=\"http://www.mohanty.de\" title=\"Werbeagentur\">Werbeagentur</a> "
+#~ "mohanty"
+
+#~ msgid "General settings"
+#~ msgstr "Allgemeine Einstellungen"
+
+#~ msgid "Above content"
+#~ msgstr "Oberhalb des Inhaltsbereichs"
+
+#~ msgid "Video URL"
+#~ msgstr "Video-URL"
+
+#~ msgid "Additional information"
+#~ msgstr "Zusätzliche Informationen"
+
+#~ msgid "Below content"
+#~ msgstr "Unterhalb des Inhaltsbereichs"
+
+#~ msgid "Homepage settings"
+#~ msgstr "Einstellungen für die Startseite"
+
+#~ msgid "Show in boxes"
+#~ msgstr "In den Boxen anzeigen"
+
+#~ msgid "Bottom images"
+#~ msgstr "Bilder am Seitenende"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Link to page"
+#~ msgstr "Zu Seite verlinken"
+
+#~ msgid "Text on the left side"
+#~ msgstr "Text auf der linken Seite anzeigen"
+
+#~ msgid "Section 1"
+#~ msgstr "Abschnitt 1"
+
+#~ msgid "PDFs"
+#~ msgstr "PDFs"
+
+#~ msgid "Section 2"
+#~ msgstr "Abschnitt 2"
+
+#~ msgid "Section 3"
+#~ msgstr "Abschnitt 3"
+
+#~ msgid "Tab title"
+#~ msgstr "Tab-Titel"
+
+#~ msgid "PDFs 1"
+#~ msgstr "PDFs 1"
+
+#~ msgid "PDFs 2"
+#~ msgstr "PDFs 2"
+
+#~ msgid "PDFs 3"
+#~ msgstr "PDFs 3"
+
+#~ msgid "PDFs 4"
+#~ msgstr "PDFs 4"
+
+#~ msgid "PDFs 5"
+#~ msgstr "PDFs 5"
+
+#~ msgid "PDFs 6"
+#~ msgstr "PDFs 6"
+
+#~ msgid "PDFs 7"
+#~ msgstr "PDFs 7"
+
+#~ msgid "PDFs 8"
+#~ msgstr "PDFs 8"
+
+#~ msgid "PDFs 9"
+#~ msgstr "PDFs 9"
+
+#~ msgid "PDFs 10"
+#~ msgstr "PDFs 10"
+
+#~ msgid "Services settings"
+#~ msgstr "Service-Einstellungen"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Fax"
+#~ msgstr "Telefax"
+
+#~ msgid "Email"
+#~ msgstr "E-Mail"
+
+#~ msgid "Boxes or links for references details"
+#~ msgstr "Boxen oder Links für die Referenzen-Details"
+
+#~ msgid "PDF downloads"
+#~ msgstr "PDF-Downloads"
+
+#~ msgid "Show in list"
+#~ msgstr "In der Liste anzeigen"
+
+#~ msgid "Genesis - Featured Page"
+#~ msgstr "Genesis - Featured Page"
+
+#~ msgid "Selected Case Studies"
+#~ msgstr "Ausgewählte Casestudies"
+
+#~ msgid "Phone:"
+#~ msgstr "Telefon:"
+
+#~ msgid "Fax:"
+#~ msgstr "Telefax:"
+
+#~ msgid "Product World"
+#~ msgstr "Produktwelt"
+
+#~ msgid "More"
+#~ msgstr "Mehr"
+
+#~ msgid "Content Top"
+#~ msgstr "Inhaltsbereich oben"
+
+#~ msgid "Product overview"
+#~ msgstr "Produktübersicht"
+
+#~ msgid ""
+#~ "Copyright SENPRO Sensortechnik GmbH %s - All rights reserved. Concept "
+#~ "&amp; implementation: <a href=\"http://www.mohanty.de\" title="
+#~ "\"Werbeagentur\">Werbeagentur</a> MOHANTY"
+#~ msgstr ""
+#~ "Copyright SENPRO Sensortechnik GmbH %s - Alle Rechte vorbehalten. Konzept "
+#~ "&amp; Umsetzung: <a href=„http://www.mohanty.de“ "
+#~ "title=„Werbeagentur“>Werbeagentur</a> MOHANTY"
+
+#~ msgid "Products"
+#~ msgstr "Produkte"
+
+#~ msgid "Product"
+#~ msgstr "Produkt"
+
+#~ msgid "products"
+#~ msgstr "produkte"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Slider Shortcode"
+#~ msgstr "Slider-Shortcode"
+
+#~ msgid "Show Inquiry Form"
+#~ msgstr "Kontaktformular anzeigen"
+
+#~ msgid "Text below Form Title"
+#~ msgstr "Text unterhalb des Formulartitels"
+
+#~ msgid "Footer Text"
+#~ msgstr "Footer-Text"
+
+#~ msgid "Downloads Categories"
+#~ msgstr "Download-Kategorien"
+
+#~ msgid "Used for the \"Downloads\" page template"
+#~ msgstr "Wird im „Downloads“-Seitentemplate verwendet"
+
+#~ msgid "PDF download"
+#~ msgstr "PDF-Download"
+
+#~ msgid "Box Title"
+#~ msgstr "Titel für die Box"
+
+#~ msgid "Box Subtitle"
+#~ msgstr "Untertitel für die Box"
+
+#~ msgid "PDF File"
+#~ msgstr "PDF-Datei"
+
+#~ msgid "Images for Tabs"
+#~ msgstr "Bilder für die Tabs"
+
+#~ msgid "Product Image"
+#~ msgstr "Produktbild"
+
+#~ msgid "Technical Data"
+#~ msgstr "Technische Daten"
+
+#~ msgid "Content for Accordion"
+#~ msgstr "Inhalt für das Accordion"
+
+#~ msgid "Sub Products"
+#~ msgstr "Unter-Produkte"
+
+#~ msgid "Show as boxes"
+#~ msgstr "Als Boxen anzeigen"
+
+#~ msgid "Featured Product"
+#~ msgstr "Featured-Produkt"
+
+#~ msgid "Shows a Featured Product"
+#~ msgstr "Zeigt ein Featured-Produkt"
+
+#~ msgid "Product Details"
+#~ msgstr "Produktdetails"
+
+#~ msgid "Select Product:"
+#~ msgstr "Produkt auswählen:"
+
+#~ msgid "Download <br>PDF"
+#~ msgstr "PDF <br>herunterladen"
+
+#~ msgid "Select"
+#~ msgstr "Auswählen"
+
+#~ msgid "Show as list"
+#~ msgstr "Als Liste anzeigen"
+
+#~ msgid "Special Offer"
+#~ msgstr "Sonderangebot"
+
+#~ msgid "View Offer"
+#~ msgstr "Zum Angebot"
+
+#~ msgid "Back"
+#~ msgstr "Zurück"
+
+#~ msgid "Header 1"
+#~ msgstr "Header 1"
+
+#~ msgid "Header 2"
+#~ msgstr "Header 2"
+
+#~ msgid "Header 3"
+#~ msgstr "Header 3"
+
+#~ msgid "Header 4"
+#~ msgstr "Header 4"
+
+#~ msgid "References Intro Text"
+#~ msgstr "Referenzen Einführungstext"
+
+#~ msgid "Team Intro Text"
+#~ msgstr "Team Einführungstext"
+
+#~ msgid ""
+#~ "Concept &amp; implementation: <a href=\"http://www.mohanty.de\" title="
+#~ "\"Werbeagentur\">Werbeagentur</a> MOHANTY - Copyright %s BEO München GmbH "
+#~ "& Co. KG"
+#~ msgstr ""
+#~ "Konzept &amp; Umsetzung: <a href=\"http://www.mohanty.de\" title="
+#~ "\"Werbeagentur\">Werbeagentur</a> MOHANTY - Copyright %s BEO München GmbH "
+#~ "& Co. KG"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "Offers"
+#~ msgstr "Aktionen"
+
+#~ msgid "Offer"
+#~ msgstr "Aktion"
+
+#~ msgid "offers"
+#~ msgstr "aktionen"
+
+#~ msgid "Team"
+#~ msgstr "Team"
+
+#~ msgid "references"
+#~ msgstr "referenzen"
+
+#~ msgid "Contact Details"
+#~ msgstr "Kontaktdetails"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Settings for the offers boxes"
+#~ msgstr "Einstellungen für die Aktionen-Boxen"
+
+#~ msgid "Layout 1"
+#~ msgstr "Layout 1"
+
+#~ msgid "Layout 2"
+#~ msgstr "Layout 2"
+
+#~ msgid "Layout 3"
+#~ msgstr "Layout 3"
+
+#~ msgid "Rounded Box"
+#~ msgstr "Abgerundete Box"
+
+#~ msgid "Image Title"
+#~ msgstr "Bildtitel"
+
+#~ msgid "Image Text"
+#~ msgstr "Bildtext"
+
+#~ msgid "Intro Text"
+#~ msgstr "Einführungstext"
+
+#~ msgid "Old Price"
+#~ msgstr "Alter Preis"
+
+#~ msgid "New Price"
+#~ msgstr "Neuer Preis"
+
+#~ msgid "In Stock"
+#~ msgstr "Im Lager"
+
+#~ msgid "Dont show"
+#~ msgstr "Nicht anzeigen"
+
+#~ msgid "Sould out"
+#~ msgstr "Verkauft"
+
+#~ msgid "Offers Text"
+#~ msgstr "Aktionen-Text"
+
+#~ msgid "Home Page 1"
+#~ msgstr "Startseite 1"
+
+#~ msgid "Home Page 2"
+#~ msgstr "Startseite 2"
+
+#~ msgid "Home Page 3"
+#~ msgstr "Startseite 3"
+
+#~ msgid "Home Page 4"
+#~ msgstr "Startseite 4"
+
+#~ msgid "Home Page 5"
+#~ msgstr "Startseite 5"
+
+#~ msgid "Home Page 6"
+#~ msgstr "Startseite 6"
+
+#~ msgid "Home Page 7"
+#~ msgstr "Startseite 7"
+
+#~ msgid "Custom widget for the homepage"
+#~ msgstr "Eigenes Widget für die Startseite"
+
+#~ msgid "Images, videos and text"
+#~ msgstr "Bilder, Videos und Text"
+
+#~ msgid "Video URL:"
+#~ msgstr "Video-URL"
+
+#~ msgid "OR"
+#~ msgstr "ODER"
+
+#~ msgid "Select image:"
+#~ msgstr "Bild auswählen"
+
+#~ msgid "Image/video alignment:"
+#~ msgstr "Bild/Video Ausrichtung"
+
+#~ msgid "top"
+#~ msgstr "oben"
+
+#~ msgid "left"
+#~ msgstr "links"
+
+#~ msgid "right"
+#~ msgstr "rechts"
+
+#~ msgid "Image/video size:"
+#~ msgstr "Bild/Video Größe"
+
+#~ msgid "Text:"
+#~ msgstr "Text:"
+
+#~ msgid "Buy online"
+#~ msgstr "Online einkaufen"
+
+#~ msgid "Content"
+#~ msgstr "Inhalt"
+
+#~ msgid "Additional information above the content section"
+#~ msgstr "Zusätzliche Informationen oberhalb des Inhaltsbereichs"
+
+#~ msgid "Shop link"
+#~ msgstr "Shop-Link"
+
+#~ msgid "Contains"
+#~ msgstr "Inhalt"
+
+#~ msgid "Gallery Tab"
+#~ msgstr "Galerie Tab"
+
+#~ msgid "Technical Data Tab"
+#~ msgstr "Technische Daten Tab"
+
+#~ msgid "Informations Tab"
+#~ msgstr "Informationen Tab"
+
+#~ msgid "Number of fields:"
+#~ msgstr "Anzahl von Feldern:"
+
+#~ msgid "Video Code"
+#~ msgstr "Video-Code"
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "Homepage Tabs English"
+#~ msgstr "Startseiten-Tabs Englisch"
+
+#~ msgid "Products Sidebar"
+#~ msgstr "Produkte-Sidebar"
+
+#~ msgid "This is the primary sidebar shown on the products page."
+#~ msgstr "Die Haupt-Sidebar auf der Produktseite"
+
+#~ msgid "Page Top"
+#~ msgstr "Seite oben"
+
+#~ msgid "The widget area on top of pages and posts"
+#~ msgstr "Der Widget-Bereich oberhalb von Seiten und Beiträgen"
+
+#~ msgid "Products Top"
+#~ msgstr "Produkte oben"
+
+#~ msgid "The widget area on top of the products overview"
+#~ msgstr "Der Widget-Bereich oberhalb der Produktübersicht"
+
+#~ msgid "Videos"
+#~ msgstr "Videos"
+
+#~ msgid "Information"
+#~ msgstr "Informationen"
+
+#~ msgid "Copyright %1$s %2$s."
+#~ msgstr "Copyright %1$s %2$s."
+
+#~ msgid "Agri Theme Settings"
+#~ msgstr "Agri Theme-Einstellungen"
+
+#~ msgid "Agri Theme Settings English"
+#~ msgstr "Agri Theme-Einstellungen Englisch"
+
+#~ msgid "Widget areas"
+#~ msgstr "Widget-Bereiche"
+
+#~ msgid "Show widgets above the content"
+#~ msgstr "Widgets oberhalb des Inhaltsbereichs anzeigen"
+
+#~ msgid "Show sidebar widgets"
+#~ msgstr "Sidebar-Widgets anzeigen"
+
+#~ msgid "Select sidebar entries"
+#~ msgstr "Sidebar-Einträge auswählen"
+
+#~ msgid "Show widgets below content"
+#~ msgstr "Widgets unterhalb des Inhaltsbereichs anzeigen"
+
+#~ msgid "Contact form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Form title"
+#~ msgstr "Formulartitel"
+
+#~ msgid "Text above the form"
+#~ msgstr "Text oberhalb des Formulars"
+
+#~ msgid "More entries below content"
+#~ msgstr "Weitere Beiträge unterhalb des Inhaltsbereichs"
+
+#~ msgid "Show more entries"
+#~ msgstr "Weitere Beiträge anzeigen"
+
+#~ msgid "Title above entries"
+#~ msgstr "Titel oberhalb der Beiträge"
+
+#~ msgid "Text above entries"
+#~ msgstr "Text oberhalb der Beiträge"
+
+#~ msgid "Content Top Left"
+#~ msgstr "Content oben links"
+
+#~ msgid "Content Top Right"
+#~ msgstr "Content oben rechts"
+
+#~ msgid "The right widget area above the main content"
+#~ msgstr "Der rechte Widget-Bereich oberhalb des Inhaltsbereichs"
+
+#~ msgid "Entry top"
+#~ msgstr "Beitrag oben"
+
+#~ msgid "The right widget area below the main content"
+#~ msgstr "Der rechte Widget-Bereich unterhalb des Inhaltsbereichs"
+
+#~ msgid "Back to all references"
+#~ msgstr "Zurück zur Referenzübersicht"
+
+#~ msgid "read more"
+#~ msgstr "mehr lesen"
+
+#~ msgid "What our Customers say..."
+#~ msgstr "Zufriedene Kunden sagen..."
+
+#~ msgid "Home middle Sidebar"
+#~ msgstr "Widget-Bereich Startseite Mitte"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "Hinterlassen Sie einen Kommentar"
+
+#~ msgid "Gray"
+#~ msgstr "Grau"
+
+#~ msgid "Green"
+#~ msgstr "Grün"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgid "This is the featured section."
+#~ msgstr "Das ist der \"Featured\" Bereich auf der Startseite"
+
+#~ msgid "Home Middle #2"
+#~ msgstr "Startseite Mitte #2"
+
+#~ msgid "This is the second column of the home middle section."
+#~ msgstr "Das ist die zweite Spalte im mittleren Bereich der Startseite"
+
+#~ msgid "Home Middle #3"
+#~ msgstr "Startseite Mitte #3"
+
+#~ msgid "This is the third column of the home middle section."
+#~ msgstr "Das ist die dritte Spalte im mittleren Bereich der Startseite"
+
+#~ msgid "This is the first column of the home bottom section."
+#~ msgstr "Das ist die erste Spalte im unteren Bereich der Startseite"
+
+#~ msgid "Home Bottom #2"
+#~ msgstr "Startseite unten #2"
+
+#~ msgid "This is the second column of the home bottom section."
+#~ msgstr "Das ist die zweite Spalte im unteren Bereich der Startseite"
