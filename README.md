@@ -1,4 +1,4 @@
-The **Toolbox Theme** is a developer theme and intended for to build child themes.
+The **Toolbox Theme** is a developer theme and intended to build child themes.
 
 ###Included tools:
 * [Hybrid Core](http://themehybrid.com/hybrid-core)
