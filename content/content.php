@@ -1,6 +1,5 @@
 <article <?php hybrid_attr( 'post' ); ?>>
 	<?php if ( is_singular( get_post_type() ) ) : // If viewing a single post. ?>
-
 		<header class="entry-header">
 			<h1 <?php hybrid_attr( 'entry-title' ); ?>><?php single_post_title(); ?></h1>            
             <?php locate_template( array( 'misc/entry-byline.php' ), true, false ); // Loads the misc/entry-byline.php template. ?>
