@@ -6,6 +6,7 @@ $hybrid_base_dir = trailingslashit( get_template_directory() );
 require_once( $hybrid_base_dir . 'hybrid-core/hybrid.php' );
 require_once( $hybrid_base_dir . 'inc/theme.php'          );
 require_once( $hybrid_base_dir . 'inc/attributes.php'     );
+require_once( $hybrid_base_dir . 'inc/update.php'     );
 
 // Launch the Hybrid Core framework.
 new Hybrid();
@@ -39,4 +40,7 @@ function toolbox_theme_setup() {
 	remove_filter( 'body_class', 'hybrid_body_class_filter', 0 );
 	
 }
+
+// Check for updates
+$UpdateChecker = new ThemeUpdateChecker( 'toolbox', 'https://kernl.us/api/v1/theme-updates/57d159b901b58529c0589c99/' );
 ?>
