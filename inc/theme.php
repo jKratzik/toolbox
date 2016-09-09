@@ -29,8 +29,8 @@ function toolbox_register_sidebar() {
 add_action( 'wp_enqueue_scripts', 'toolbox_enqueue_styles',  5 );
 function toolbox_enqueue_styles() {
 	$suffix = hybrid_get_min_suffix();
-	wp_enqueue_style( 'toolbox-foundation', trailingslashit( get_template_directory_uri() ) . "css/foundation{$suffix}.css" );
-	wp_enqueue_style( 'toolbox-elegant-icons', trailingslashit( get_template_directory_uri() ) . "css/elegant-icons{$suffix}.css" );
+	wp_enqueue_style( 'toolbox-foundation', trailingslashit( get_template_directory_uri() ) . "css/foundation{$suffix}.css", array(), '6.2.3' );
+	wp_enqueue_style( 'toolbox-elegant-icons', trailingslashit( get_template_directory_uri() ) . "css/elegant-icons{$suffix}.css", array(), null );
 	if ( is_child_theme() ) {
 		wp_enqueue_style( 'hybrid-parent' );
 	}
@@ -44,7 +44,7 @@ function toolbox_enqueue_scripts() {
 	$output = array(
 		'menu' => __( 'Menu', 'toolbox' )
 	);
-	wp_enqueue_script( 'toolbox-foundation', trailingslashit( get_template_directory_uri() ) . "js/foundation{$suffix}.js", array( 'jquery' ), null, true );
+	wp_enqueue_script( 'toolbox-foundation', trailingslashit( get_template_directory_uri() ) . "js/foundation{$suffix}.js", array( 'jquery' ), '6.2.3', true );
 	wp_enqueue_script( 'toolbox-menu', trailingslashit( get_template_directory_uri() ) . "js/menu.js", array(), null, true );
 	wp_localize_script( 'toolbox-menu', 'I18nToolbox', $output );
 }
