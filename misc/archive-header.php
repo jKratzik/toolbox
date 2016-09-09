@@ -14,11 +14,8 @@
 ?>
 
 <header <?php hybrid_attr( 'archive-header' ); ?>>
-
 	<h1 <?php hybrid_attr( 'archive-title' ); ?>><?php the_archive_title( $title ); ?></h1>
-
 	<?php if ( ! is_paged() && $desc = get_the_archive_description() ) : // Check if we're on page/1. ?>
-
 		<div <?php hybrid_attr( 'archive-description' ); ?>>
 			<?php if( is_author() ) : ?>
 				<p class="media-object-section comment-avatar">
@@ -28,8 +25,6 @@
 			<div class="<?php echo $archive_class; ?>archive-text"> 
 				<?php echo $desc; ?>
 			</div>
-		</div><!-- .archive-description -->
-
+		</div>
 	<?php endif; // End paged check. ?>
-
-</header><!-- .archive-header -->
+</header>

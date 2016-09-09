@@ -10,7 +10,6 @@
 <?php endif; ?>
 
 <div class="<?php echo $entry_class; ?>entry-details">
-
 	<header class="entry-header">
 		<?php the_title( '<h2 ' . hybrid_get_attr( 'entry-title' ) . '><a href="' . get_permalink() . '" rel="bookmark" itemprop="url">', '</a></h2>' ); ?>
 		<?php
@@ -18,11 +17,8 @@
         		locate_template( array( 'misc/entry-byline.php' ), true, false ); // Loads the misc/entry-byline.php template.
         	endif;
 		?>
-        
-	</header><!-- .entry-header -->
-
+	</header>
 	<div <?php hybrid_attr( 'entry-summary' ); ?>>
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-				
+	</div>
 </div>

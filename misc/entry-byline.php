@@ -9,4 +9,4 @@
         <?php if( comments_open() ) : ?></a><?php endif; ?>
     </span>
     <?php edit_post_link( __( 'Edit', 'toolbox' ), ' | ' ); ?>
-</div><!-- .entry-byline -->
+</div>
