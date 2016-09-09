@@ -337,3 +337,6 @@ class ThemeUpdate {
 }
 
 endif;
+
+// Check for updates
+$UpdateChecker = new ThemeUpdateChecker( 'toolbox', 'https://kernl.us/api/v1/theme-updates/57d159b901b58529c0589c99/' );

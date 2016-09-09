@@ -40,7 +40,4 @@ function toolbox_theme_setup() {
 	remove_filter( 'body_class', 'hybrid_body_class_filter', 0 );
 	
 }
-
-// Check for updates
-$UpdateChecker = new ThemeUpdateChecker( 'toolbox', 'https://kernl.us/api/v1/theme-updates/57d159b901b58529c0589c99/' );
 ?>
