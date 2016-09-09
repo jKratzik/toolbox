@@ -5,28 +5,18 @@
 </head>
 
 <body <?php hybrid_attr( 'body' ); ?>>
-
 	<div id="container">
-
 		<div class="skip-link">
 			<a href="#content" class="show-for-sr"><?php esc_html_e( 'Skip to content', 'toolbox' ); ?></a>
-		</div><!-- .skip-link -->
-
+		</div>
 		<header <?php hybrid_attr( 'header' ); ?>>
-			
 			<div class="row">
 				<div <?php hybrid_attr( 'branding' ); ?>>
 					<?php hybrid_site_title(); ?>
 					<?php hybrid_site_description(); ?>
-				</div><!-- #branding -->
+				</div>
 			</div>
-
-		</header><!-- #header -->
-		
-		<div class="nav-primary">
-			<?php hybrid_get_menu( 'primary' ); // Loads the menu/primary.php template. ?>
-		</div><!-- .nav-primary -->
-        
+		</header>
+		<?php hybrid_get_menu( 'primary' ); // Loads the menu/primary.php template. ?>
 		<div id="main" class="row main">
-
 			<?php hybrid_get_menu( 'breadcrumbs' ); // Loads the menu/breadcrumbs.php template. ?>
