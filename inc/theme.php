@@ -13,16 +13,23 @@ function toolbox_register_layouts() {
 	hybrid_register_layout( '2c-r', array( 'label' => esc_html__( '2 Columns: Sidebar / Content', 'toolbox' ), 'image' => '%s/images/2c-r.png' ) );
 }
 
-// Register the primary sidebar
+// Register widget areas
 add_action( 'widgets_init', 'toolbox_register_sidebar', 5 );
 function toolbox_register_sidebar() {
+    hybrid_register_sidebar(
+        array(
+			'id'          => 'header',
+			'name'        => esc_html__( 'Header', 'toolbox' ),
+			'description' => esc_html__( 'Widget area shown right to the site title in the header.', 'toolbox' )
+		)
+	);
 	hybrid_register_sidebar(
 		array(
 			'id'          => 'primary',
 			'name'        => esc_html__( 'Sidebar', 'toolbox' ),
-			'description' => esc_html__( 'The primary sidebar that is shown left or right to the content area.', 'toolbox' )
+			'description' => esc_html__( 'The primary sidebar is shown left or right to the content area, depending on the selected layout.', 'toolbox' )
 		)
-	);
+    );
 }
 
 // Add custom styles

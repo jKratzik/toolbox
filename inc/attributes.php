@@ -2,7 +2,12 @@
 // Branding
 add_filter( 'hybrid_attr_branding', 'toolbox_attr_branding' );
 function toolbox_attr_branding( $attr ) {
-	$attr['class'] = 'small-12 columns site-branding';
+    if ( is_active_sidebar( 'header' ) ) {
+	   $attr['class'] = 'medium-6 columns site-branding';
+    }
+    else {
+        $attr['class'] = 'small-12 columns site-branding';
+    }
 	return $attr;
 }
 

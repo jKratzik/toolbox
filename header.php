@@ -15,6 +15,7 @@
 					<?php hybrid_site_title(); ?>
 					<?php hybrid_site_description(); ?>
 				</div>
+                <?php hybrid_get_sidebar( 'header' ); // Loads the sidebar/header.php template. ?>
 			</div>
 		</header>
 		<?php hybrid_get_menu( 'primary' ); // Loads the menu/primary.php template. ?>
