@@ -1,4 +1,4 @@
-(function($) {
+jQuery(document).ready(function($) {
 	
 	$('#container').wrap(
 		'<div class="off-canvas-wrapper"><div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>'
@@ -21,9 +21,9 @@
 	
 	$(document).foundation();
 		
-	$( '<li class="submenu-first"></li>' ).insertAfter( '.js-drilldown-back' );
+	//$( '<li class="submenu-first"></li>' ).insertAfter( '.js-drilldown-back' );
 	$('.menu-item-has-children').each(function() {
 		( $('> .sub-menu > .js-drilldown-back a', this).text( $('> a', this).text() ) );
     });
 	
-})(jQuery);
+});
