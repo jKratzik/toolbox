@@ -165,14 +165,34 @@ input[type="submit"]:focus {
 }
 .off-canvas {
 	bottom: 0;
+    background: #fff;
 }
-.is-drilldown-submenu {
+.off-canvas-content {
+	background: none;
+	box-shadow: none;
+}
+.off-canvas .is-drilldown-submenu {
 	margin: 0;
 }
 .off-canvas a {
 	display: block;
     padding: 0.7rem 1rem;
     line-height: 1;
+	color: #666;
+}
+.off-canvas .is-drilldown-submenu-parent > a:after {
+	border-color: transparent transparent transparent #666;
+	opacity: 0.5;
+}
+.off-canvas .js-drilldown-back > a:before {
+	border-color: transparent #666 transparent transparent;
+	opacity: 0.5;
+}
+.off-canvas .js-drilldown-back a {
+	background: rgba(0, 0, 0, 0.05);
+}
+.js-off-canvas-exit {
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -197,9 +217,6 @@ input[type="submit"]:focus {
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
-#container {
-	background: none;
-}
 
 /* ## Entry Content
 --------------------------------------------- */
@@ -474,6 +491,13 @@ li.comment li.comment {
 	margin-bottom: 2.5rem;
 	padding: 2rem;
 	background: #fff;
+}
+.widget_nav_menu .menu > li {
+    display: block;
+}
+.widget_nav_menu .menu > li > a {
+    display: inline;
+    padding: 0;
 }
 
 
