@@ -14,9 +14,11 @@
 		</footer>
 	<?php else : // If not viewing a single post. ?>
 		<?php locate_template( array( 'misc/non-singular-content.php' ), true, false ); // Loads the misc/non-singular-content.php template. ?>
+        <?php if( ! is_search() ) : ?>
 		<footer class="entry-footer">
 			<?php hybrid_post_terms( array( 'taxonomy' => 'category', 'text' => esc_html__( 'Posted in %s', 'toolbox' ) ) ); ?>
 			<?php hybrid_post_terms( array( 'taxonomy' => 'post_tag', 'text' => esc_html__( 'Tagged with %s', 'toolbox' ), 'before' => '<br />' ) ); ?>
 		</footer>
+        <?php endif; ?>
 	<?php endif; // End single post check. ?>
 </article>

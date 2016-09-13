@@ -1,9 +1,9 @@
 <?php
 	$featured_image = get_the_image( array( 'echo' => false ) );
-	$entry_class = ( $featured_image ) ? 'media-object-section ' : '';
+	$entry_class = ( $featured_image && ! is_search() ) ? 'media-object-section ' : '';
 ?>
 
-<?php if( $featured_image ) : ?>
+<?php if( $featured_image && ! is_search() ) : ?>
 	<p class="media-object-section entry-thumbnail">
 		<?php get_the_image(); ?>
 	</p>
@@ -13,7 +13,7 @@
 	<header class="entry-header">
 		<?php the_title( '<h2 ' . hybrid_get_attr( 'entry-title' ) . '><a href="' . get_permalink() . '" rel="bookmark" itemprop="url">', '</a></h2>' ); ?>
 		<?php
-            if( 'post' == get_post_type() ) :
+            if( 'post' == get_post_type() && ! is_search() ) :
         		locate_template( array( 'misc/entry-byline.php' ), true, false ); // Loads the misc/entry-byline.php template.
         	endif;
 		?>
