@@ -16,14 +16,3 @@
 		<?php locate_template( array( 'misc/non-singular-content.php' ), true, false ); // Loads the misc/non-singular-content.php template. ?>
 	<?php endif; // End single attachment check. ?>
 </article>
-<?php if ( is_attachment() ) : // If viewing a single attachment. ?>
-	<div class="attachment-meta">
-		<?php $gallery = gallery_shortcode( array( 'columns' => 4, 'numberposts' => 8, 'orderby' => 'rand', 'id' => get_queried_object()->post_parent, 'exclude' => get_the_ID() ) ); ?>
-		<?php if ( $gallery ) : // Check if the gallery is not empty. ?>
-			<div class="image-gallery">
-				<h3 class="attachment-meta-title"><?php esc_html_e( 'Gallery', 'toolbox' ); ?></h3>
-				<?php echo $gallery; ?>
-			</div>
-		<?php endif; // End gallery check. ?>
-	</div>
-<?php endif; // End single attachment check. ?>
