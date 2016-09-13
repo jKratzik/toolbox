@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Anchor-Theme German\n"
+"Project-Id-Version: Toolbox-Theme German\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 10:52+0200\n"
+"POT-Creation-Date: 2016-09-13 21:29+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Johann Kratzik <johann@kratzik.com>\n"
 "Language-Team: \n"
@@ -21,34 +21,34 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: comment.php:10
+#: comment.php:9
 #, php-format
 msgid "%s ago"
 msgstr "vor %s"
 
-#: comment.php:11 content/page.php:14 misc/entry-byline.php:11
+#: comment.php:10 content/page.php:10 misc/entry-byline.php:11
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: content/attachment-image.php:38
+#: content/attachment-image.php:24
 msgid "Gallery"
 msgstr "Galerie"
 
-#: content/content.php:16 content/content.php:25
+#: content/content.php:12 content/content.php:18
 #, php-format
 msgid "Posted in %s"
 msgstr "Kategorien: %s"
 
-#: content/content.php:17 content/content.php:26
+#: content/content.php:13 content/content.php:19
 #, php-format
 msgid "Tagged with %s"
 msgstr "Schlagwörter: %s"
 
-#: content/error.php:6
+#: content/error.php:4
 msgid "This page doesn't exist"
 msgstr "Diese Seite existiert nicht"
 
-#: content/error.php:10
+#: content/error.php:7
 #, php-format
 msgid ""
 "Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and "
@@ -58,16 +58,16 @@ msgstr ""
 "Sie können zur <a href=\"%s\">Startseite</a> zurückkehren um zu finden, was "
 "Sie gesucht haben. Oder Sie können es mit dem Suchformular versuchen."
 
-#: content/error.php:17
+#: content/error.php:12
 msgid "Sorry, no entries have been found."
 msgstr "Leider wurden keine Inhalte gefunden."
 
-#: footer.php:12
+#: footer.php:8
 #, php-format
 msgid "Copyright &copy; %1$s %2$s"
 msgstr "Copyright &copy; %1$s %2$s"
 
-#: header.php:12
+#: header.php:10
 msgid "Skip to content"
 msgstr " Zum Inhalt springen"
 
@@ -253,24 +253,35 @@ msgid "2 Columns: Sidebar / Content"
 msgstr "2 Spalten: Sidebar / Inhalt"
 
 #: inc/theme.php:22
+msgid "Header"
+msgstr "Header"
+
+#: inc/theme.php:23
+msgid "Widget area shown right to the site title in the header."
+msgstr "Widget-Bereich im Header, wird rechts neben dem Seitentitel angezeigt."
+
+#: inc/theme.php:29
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: inc/theme.php:23
-msgid "The primary sidebar that is shown left or right to the content area."
+#: inc/theme.php:30
+msgid ""
+"The sidebar is shown left or right to the content area, depending on the "
+"selected layout."
 msgstr ""
-"Die primäre Sidebar, die links oder rechts vom Inhaltsbereich angezeigt wird"
+"Die Sidebar wird rechts oder links neben dem Inhaltsbereich angezeigt, "
+"abhängig vom gewählten Layout."
 
-#: inc/theme.php:33
+#: inc/theme.php:52
 msgid "Menu"
 msgstr "Menü"
 
-#: inc/theme.php:57
+#: inc/theme.php:64
 #, php-format
 msgid "Read more %s"
 msgstr "Weiterlesen %s"
 
-#: menu/breadcrumbs.php:9
+#: menu/breadcrumbs.php:8
 msgid "You are here:"
 msgstr "Sie sind hier:"
 
@@ -286,30 +297,30 @@ msgstr "Schlagwort: "
 msgid "Author: "
 msgstr "Autor: "
 
-#: misc/comments-error.php:6
+#: misc/comments-error.php:5
 #, php-format
 msgid "Comments are closed, but %strackbacks%s and pingbacks are open."
 msgstr ""
 "Kommentare sind geschlossen, aber %sTrackbacks%s und Pingbacks sind offen."
 
-#: misc/comments-error.php:13
+#: misc/comments-error.php:10
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
 
-#: misc/comments-nav.php:5
+#: misc/comments-nav.php:3
 msgid "Comments Navigation"
 msgstr "Kommentar-Navigation"
 
-#: misc/comments-nav.php:7
+#: misc/comments-nav.php:4
 msgid "&larr; Previous"
 msgstr "&larr; Zurück"
 
-#: misc/comments-nav.php:11
+#: misc/comments-nav.php:7
 #, php-format
 msgid "Page %1$s of %2$s"
 msgstr "Seite %1$s von %2$s"
 
-#: misc/comments-nav.php:14
+#: misc/comments-nav.php:9
 msgid "Next &rarr;"
 msgstr "Weiter &rarr;"
 
@@ -334,19 +345,19 @@ msgstr "1 Kommentar"
 msgid "% comments"
 msgstr "% Kommentare"
 
-#: misc/loop-nav.php:4
+#: misc/loop-nav.php:3
 msgid "Previous Post: %link"
 msgstr "Voriger Beitrag: %link"
 
-#: misc/loop-nav.php:5
+#: misc/loop-nav.php:4
 msgid "Next Post: %link"
 msgstr "Nächster Beitrag: %link"
 
-#: misc/loop-nav.php:12
+#: misc/loop-nav.php:9
 msgid "Previous"
 msgstr "Zurück"
 
-#: misc/loop-nav.php:13
+#: misc/loop-nav.php:10
 msgid "Next"
 msgstr "Weiter"
 
@@ -369,11 +380,31 @@ msgstr "Beispiel-Widget"
 #: sidebar/primary.php:16
 #, php-format
 msgid ""
-"This is an example widget to show how the Primary sidebar looks by default. "
-"You can add custom widgets from the %swidgets page%s in the dashboard."
+"This is an example widget to show how the sidebar looks by default. You can "
+"add custom widgets from the %swidgets page%s in the dashboard."
 msgstr ""
-"Das ist ein Beispiel-Widget um zu zeigen, wie die Primäre Sidebar aussieht."
-"Sie können eigene Widgets auf der %sWidgets-Seite%s im Dashboard einfügen."
+"Das ist ein Beispiel-Widget um zu zeigen, wie die Sidebar aussieht.Sie "
+"können eigene Widgets auf der %sWidgets-Seite%s im Dashboard einfügen."
+
+#~ msgid ""
+#~ "This is an example widget to show how the Primary sidebar looks by "
+#~ "default. You can add custom widgets from the %swidgets page%s in the "
+#~ "dashboard."
+#~ msgstr ""
+#~ "Das ist ein Beispiel-Widget um zu zeigen, wie die Haupt-Sidebar aussieht."
+#~ "Sie können eigene Widgets auf der %sWidgets-Seite%s im Dashboard einfügen."
+
+#~ msgid ""
+#~ "The primary sidebar is shown left or right to the content area, depending "
+#~ "on the selected layout."
+#~ msgstr ""
+#~ "Die Haupt-Sidebar wird links oder rechts neben dem Inhaltsbereich "
+#~ "angezeigt, abhängig vom gewählten Layout."
+
+#~ msgid "The primary sidebar that is shown left or right to the content area."
+#~ msgstr ""
+#~ "Die primäre Sidebar, die links oder rechts vom Inhaltsbereich angezeigt "
+#~ "wird"
 
 #~ msgctxt "label"
 #~ msgid "Search for:"

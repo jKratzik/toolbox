@@ -27,7 +27,7 @@ function toolbox_register_sidebar() {
 		array(
 			'id'          => 'primary',
 			'name'        => esc_html__( 'Sidebar', 'toolbox' ),
-			'description' => esc_html__( 'The primary sidebar is shown left or right to the content area, depending on the selected layout.', 'toolbox' )
+			'description' => esc_html__( 'The sidebar is shown left or right to the content area, depending on the selected layout.', 'toolbox' )
 		)
     );
 }
