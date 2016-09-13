@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toolbox-Theme German\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-13 21:29+0200\n"
+"POT-Creation-Date: 2016-09-13 22:11+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Johann Kratzik <johann@kratzik.com>\n"
 "Language-Team: \n"
@@ -29,10 +29,6 @@ msgstr "vor %s"
 #: comment.php:10 content/page.php:10 misc/entry-byline.php:11
 msgid "Edit"
 msgstr "Bearbeiten"
-
-#: content/attachment-image.php:24
-msgid "Gallery"
-msgstr "Galerie"
 
 #: content/content.php:12 content/content.php:18
 #, php-format
@@ -373,11 +369,11 @@ msgstr "Suche &hellip;"
 msgid "Search"
 msgstr "Suche"
 
-#: sidebar/primary.php:14
+#: sidebar/primary.php:9
 msgid "Example Widget"
 msgstr "Beispiel-Widget"
 
-#: sidebar/primary.php:16
+#: sidebar/primary.php:11
 #, php-format
 msgid ""
 "This is an example widget to show how the sidebar looks by default. You can "
@@ -385,6 +381,9 @@ msgid ""
 msgstr ""
 "Das ist ein Beispiel-Widget um zu zeigen, wie die Sidebar aussieht.Sie "
 "können eigene Widgets auf der %sWidgets-Seite%s im Dashboard einfügen."
+
+#~ msgid "Gallery"
+#~ msgstr "Galerie"
 
 #~ msgid ""
 #~ "This is an example widget to show how the Primary sidebar looks by "
