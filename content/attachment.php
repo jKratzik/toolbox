@@ -13,6 +13,13 @@
 			<?php edit_post_link(); ?>
 		</footer>
 	<?php else : // If not viewing a single attachment. ?>
-		<?php locate_template( array( 'misc/non-singular-content.php' ), true, false ); // Loads the misc/non-singular-content.php template. ?>
+		<div class="entry-details">
+            <header class="entry-header">
+                <?php the_title( '<h2 ' . hybrid_get_attr( 'entry-title' ) . '><a href="' . get_permalink() . '" rel="bookmark" itemprop="url">', '</a></h2>' ); ?>
+            </header>
+            <div <?php hybrid_attr( 'entry-summary' ); ?>>
+                <?php the_excerpt(); ?>
+            </div>
+        </div>
 	<?php endif; // End single attachment check. ?>
 </article>
