@@ -55,13 +55,18 @@ function toolbox_attr_post( $attr ) {
 }
 
 // Sidebar
-add_filter( 'hybrid_attr_sidebar', 'toolbox_attr_sidebar' );
-function toolbox_attr_sidebar( $attr ) {
-	if ( '2c-l' == hybrid_get_theme_layout() ) {
-		$attr['class'] = 'medium-5 large-4 columns sidebar';
+add_filter( 'hybrid_attr_sidebar', 'toolbox_attr_sidebar', 10, 2 );
+function toolbox_attr_sidebar( $attr, $context ) {
+	if( $context == 'primary' ) {
+		if ( '2c-l' == hybrid_get_theme_layout() ) {
+			$attr['class'] = 'medium-5 large-4 columns sidebar sidebar-primary';
+		}
+		else {
+			$attr['class'] = 'medium-5 large-4 medium-pull-7 large-pull-8 columns sidebar sidebar-primary';
+		}
 	}
-	else {
-		$attr['class'] = 'medium-5 large-4 medium-pull-7 large-pull-8 columns sidebar';
+	else if( $context == 'header' ) {
+		$attr['class'] = 'medium-6 columns header-right';
 	}
 	return $attr;
 }
