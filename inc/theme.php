@@ -14,8 +14,8 @@ function toolbox_register_layouts() {
 }
 
 // Register widget areas
-add_action( 'widgets_init', 'toolbox_register_sidebar', 5 );
-function toolbox_register_sidebar() {
+add_action( 'widgets_init', 'toolbox_register_sidebars', 5 );
+function toolbox_register_sidebars() {
     hybrid_register_sidebar(
         array(
 			'id'          => 'header',
@@ -33,11 +33,11 @@ function toolbox_register_sidebar() {
 }
 
 // Add custom styles
-add_action( 'wp_enqueue_scripts', 'toolbox_enqueue_styles',  5 );
+add_action( 'wp_enqueue_scripts', 'toolbox_enqueue_styles', 5 );
 function toolbox_enqueue_styles() {
 	$suffix = hybrid_get_min_suffix();
 	wp_enqueue_style( 'toolbox-foundation', trailingslashit( get_template_directory_uri() ) . "css/foundation{$suffix}.css", array(), '6.2.3' );
-	wp_enqueue_style( 'toolbox-elegant-icons', trailingslashit( get_template_directory_uri() ) . "css/elegant-icons{$suffix}.css", array(), null );
+	wp_register_style( 'toolbox-elegant-icons', trailingslashit( get_template_directory_uri() ) . "css/elegant-icons{$suffix}.css", array(), null );
 	if ( is_child_theme() ) {
 		wp_enqueue_style( 'hybrid-parent' );
 	}
