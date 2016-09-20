@@ -8,7 +8,7 @@
 				'menu_id'         => 'menu-primary-items',
 				'menu_class'      => 'menu-items',
 				'fallback_cb'     => '',
-				'items_wrap'      => '<ul id="%s" class="small-12 columns main-nav %s">%s</ul>'
+				'items_wrap'      => '<ul id="%s" class="small-12 columns main-nav clone-mobile %s">%s</ul>'
 			)
 		); ?>
 	</nav>
