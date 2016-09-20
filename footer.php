@@ -12,7 +12,7 @@
 				</div>
 			</div>
 		</footer>
-	</div><?php // end #container ?>
-	<?php wp_footer(); // WordPress hook for loading JavaScript, toolbar, and other things in the footer. ?>
+	</div><?php // end .site-container ?>
+	<?php wp_footer(); ?>
 </body>
 </html>
