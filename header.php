@@ -5,7 +5,7 @@
 </head>
 
 <body <?php hybrid_attr( 'body' ); ?>>
-	<div id="container">
+	<div class="site-container">
 		<div class="skip-link">
 			<a href="#content" class="show-for-sr"><?php esc_html_e( 'Skip to content', 'toolbox' ); ?></a>
 		</div>
