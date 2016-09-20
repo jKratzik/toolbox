@@ -45,19 +45,15 @@ function toolbox_attr_archive_description( $attr ) {
 // Entry
 add_filter( 'hybrid_attr_post', 'toolbox_attr_post' );
 function toolbox_attr_post( $attr ) {
-	if ( ! is_singular( get_post_type() ) ) {
-		$attr['class'] = 'media-object entry';
-	}
-    else {
-        $attr['class'] = 'entry';
-    }
+	$media_class = ( ! is_singular( get_post_type() ) ) ? 'media-object ' : '';
+	$attr['class'] = $media_class . join( ' ', get_post_class() );
 	return $attr;
 }
 
 // Sidebar
 add_filter( 'hybrid_attr_sidebar', 'toolbox_attr_sidebar', 10, 2 );
 function toolbox_attr_sidebar( $attr, $context ) {
-	if( $context == 'primary' ) {
+	if( 'primary' == $context ) {
 		if ( '2c-l' == hybrid_get_theme_layout() ) {
 			$attr['class'] = 'medium-5 large-4 columns sidebar sidebar-primary';
 		}
@@ -65,7 +61,7 @@ function toolbox_attr_sidebar( $attr, $context ) {
 			$attr['class'] = 'medium-5 large-4 medium-pull-7 large-pull-8 columns sidebar sidebar-primary';
 		}
 	}
-	else if( $context == 'header' ) {
+	else if( 'header' == $context ) {
 		$attr['class'] = 'medium-6 columns header-right';
 	}
 	return $attr;
