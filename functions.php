@@ -1,12 +1,16 @@
 <?php
+// Define Hybrid Core directory and URI
+define( 'HYBRID_DIR', trailingslashit( get_template_directory() . '/inc/hybrid-core' ) );
+define( 'HYBRID_URI', trailingslashit( get_template_directory_uri() . '/inc/hybrid-core' ) );
+
 // Get the template directory and make sure it has a trailing slash.
-$hybrid_base_dir = trailingslashit( get_template_directory() );
+$toolbox_dir = trailingslashit( get_template_directory() );
 
 // Load the Hybrid Core framework and theme files.
-require_once( $hybrid_base_dir . 'hybrid-core/hybrid.php' );
-require_once( $hybrid_base_dir . 'inc/theme.php'          );
-require_once( $hybrid_base_dir . 'inc/attributes.php'     );
-require_once( $hybrid_base_dir . 'inc/update.php'     );
+require_once( $toolbox_dir . 'inc/hybrid-core/hybrid.php' );
+require_once( $toolbox_dir . 'inc/theme.php'          );
+require_once( $toolbox_dir . 'inc/attributes.php'     );
+require_once( $toolbox_dir . 'inc/update.php'     );
 
 // Launch the Hybrid Core framework.
 new Hybrid();
