@@ -778,7 +778,7 @@ final class Get_The_Image {
 
 				$link_class = $this->args['link_class'] ? sprintf( ' class="%s"', esc_attr( $this->args['link_class'] ) ) : '';
 
-				$html = sprintf( '<a href="../../../hybrid-core/ext/%s"%s>%s</a>', esc_url( $url ), $link_class, $html );
+				$html = sprintf( '<a href="%s"%s>%s</a>', esc_url( $url ), $link_class, $html );
 			}
 		}
 
