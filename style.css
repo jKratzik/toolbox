@@ -425,11 +425,13 @@ body.attachment .entry-content {
 .loop-nav .post-next {
 	text-align: center;
 }
-.loop-nav .post-prev::before {
+.loop-nav .post-prev::before,
+.comments-prev::before {
     content: "\2190";
     margin-right: 0.5rem;
 }
-.loop-nav .post-next::after {
+.loop-nav .post-next::after,
+.comments-next::after {
     content: "\2192";
     margin-left: 0.5rem;
 }
